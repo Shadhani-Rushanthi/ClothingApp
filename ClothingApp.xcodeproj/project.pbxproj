@@ -16,6 +16,7 @@
 		26B360EB2BA7FBA30060927D /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B360EA2BA7FBA30060927D /* ProductListView.swift */; };
 		26B360ED2BA804FF0060927D /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B360EC2BA804FF0060927D /* SplashScreenView.swift */; };
 		26B360F52BA81A920060927D /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B360F42BA81A920060927D /* UserDetails.swift */; };
+		26EA1EA82BA962A8006E910D /* CheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EA1EA72BA962A8006E910D /* CheckOutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		26B360EA2BA7FBA30060927D /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		26B360EC2BA804FF0060927D /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		26B360F42BA81A920060927D /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		26EA1EA72BA962A8006E910D /* CheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				26B360E62BA7FA1A0060927D /* SignUpView.swift */,
 				26B360E82BA7FA240060927D /* HomeView.swift */,
 				26B360EA2BA7FBA30060927D /* ProductListView.swift */,
+				26EA1EA72BA962A8006E910D /* CheckOutView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				26B360E52BA7FA0E0060927D /* LoginView.swift in Sources */,
 				26B360F52BA81A920060927D /* UserDetails.swift in Sources */,
 				26B360D22BA7EDAD0060927D /* ClothingAppApp.swift in Sources */,
+				26EA1EA82BA962A8006E910D /* CheckOutView.swift in Sources */,
 				26B360E92BA7FA240060927D /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
