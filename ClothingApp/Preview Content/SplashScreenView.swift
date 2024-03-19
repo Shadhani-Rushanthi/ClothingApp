@@ -10,21 +10,23 @@ import SwiftUI
 struct SplashScreenView: View {
     var body: some View {
         ZStack{
-            Image(.loading).resizable().scaledToFill()
+            Image(.loading).resizable().scaledToFill().clipped()
             
             VStack{
                 Spacer()
                 
-                Text("Welcome to\n CLODZ")
+                Text("Welcome to CLODZ")
                     .font(.system(size: 32))
                     .bold()
-                    .foregroundColor(.black)
-                    .padding(.bottom, 100)
+                    .foregroundColor(.white)
+                    .frame(width:350, height: 60)
+                    .background(.black.opacity(0.65), in: Capsule())
                     .multilineTextAlignment(.center)
-            }.padding(.horizontal, 20)
-                .frame(alignment: .center)
+                    .padding()
+            }.padding(.bottom, 100)
             
-        }.ignoresSafeArea()
+        }.edgesIgnoringSafeArea(.all)
+        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
     }
 }
 
