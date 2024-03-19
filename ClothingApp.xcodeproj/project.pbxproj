@@ -15,7 +15,6 @@
 		26B360E92BA7FA240060927D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B360E82BA7FA240060927D /* HomeView.swift */; };
 		26B360EB2BA7FBA30060927D /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B360EA2BA7FBA30060927D /* ProductListView.swift */; };
 		26B360ED2BA804FF0060927D /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B360EC2BA804FF0060927D /* SplashScreenView.swift */; };
-		26B360F12BA8122F0060927D /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26B360F32BA8122F0060927D /* Gilroy-Medium.ttf */; };
 		26B360F52BA81A920060927D /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B360F42BA81A920060927D /* UserDetails.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,6 @@
 		26B360E82BA7FA240060927D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		26B360EA2BA7FBA30060927D /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		26B360EC2BA804FF0060927D /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
-		26B360F22BA8122F0060927D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/Gilroy-Medium.ttf"; sourceTree = "<group>"; };
 		26B360F42BA81A920060927D /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,7 +110,6 @@
 		26B360EE2BA8103D0060927D /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				26B360F32BA8122F0060927D /* Gilroy-Medium.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -176,7 +173,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				26B360D92BA7EDAE0060927D /* Preview Assets.xcassets in Resources */,
-				26B360F12BA8122F0060927D /* Gilroy-Medium.ttf in Resources */,
 				26B360D62BA7EDAE0060927D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,18 +195,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		26B360F32BA8122F0060927D /* Gilroy-Medium.ttf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				26B360F22BA8122F0060927D /* Base */,
-			);
-			name = "Gilroy-Medium.ttf";
-			path = ../../../../../Downloads;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		26B360DA2BA7EDAE0060927D /* Debug */ = {
